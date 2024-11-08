@@ -2,7 +2,7 @@
 export default {
   data() {
     return { 
-      message: 'Template Vite + Vue'
+      message: 'Vite Boolfolio Header'
     }
   }
 }
@@ -10,9 +10,9 @@ export default {
 
 <template>
   <header>
-    <h1>
+    <h4>
       {{ message }}
-    </h1>
+    </h4>
   </header>
 </template>
 
@@ -25,7 +25,4 @@ header {
   padding: 20px 0;
 }
 
-h1 {
-  color: $mainColor;
-}
 </style>
