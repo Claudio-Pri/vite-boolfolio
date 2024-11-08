@@ -20,9 +20,11 @@ export default {
 @use '../assets/scss/partials/variables' as *;
 
 header {
-  background-color: $mainBgColor;
+  background-color: $mainDarkPurple;
+  color: white;
   text-align: center;
   padding: 20px 0;
+  height: $headerHeight;
 }
 
 </style>
